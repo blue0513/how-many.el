@@ -2,6 +2,8 @@
 
 Count how many the word is used in the project!
 
+![image](./images/image.png)
+
 ## Setup
 
 Edit `init.el`.
