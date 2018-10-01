@@ -1,14 +1,13 @@
 # how-many.el
 
-Count how many the word is used in the project!
+Count how many times the word is used in the project!
 
 ![image](./images/image.png)
 
 ## Setup
 
-Edit `init.el`.
-
 ```el
+;; write the code as bellow in your init.el
 (add-to-list 'load-path "/path/to/how-many")
 (require 'how-many)
 (global-set-key (kbd "H-i") 'how-many) ;; optional
